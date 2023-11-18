@@ -1,1 +1,0 @@
-import{i as n,o as c,c as i,a as t,F as l}from"./index-cc29b091.js";const r=t("div",{class:"about"},[t("h1",null,"This is an about page")],-1),m={__name:"AboutView",setup(u){const a=n("axios"),o="https://randomuser.me/api/",s=()=>{a.get(o).then(e=>{console.log(e.data)})};return(e,p)=>(c(),i(l,null,[t("button",{type:"button",onClick:s},"click me"),r],64))}};export{m as default};
